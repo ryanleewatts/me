@@ -3483,6 +3483,13 @@
 			#page-wrapper {
 				padding-left: 2rem;
 				padding-right: 2rem;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				height: auto;
+				margin: 0 0 5rem 0;
+				box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
 			}
 
 		}
