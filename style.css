@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|News+Cycle:400,700');
+
+html, body {
+  margin: 0;
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  height: 100%
+  overflow: hidden;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+  margin-top: -50px;
+}
+
+.left {
+  width: 400px;
+  -ms-flex: 0 100px;
+  -webkit-box-flex:  0;
+  -moz-box-flex:  0;
+  -ms-box-flex:  0;
+  box-flex:  0;
+  margin: auto;
+}
+
+.left > p {
+  padding: 10px;
+}
+
+.right {
+ -ms-flex: 1;
+ -webkit-box-flex: 1;
+ -moz-box-flex: 1;
+ -ms-box-flex: 1;
+ box-flex: 1;
+ margin: auto;
+}
+
+h1 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 70px;
+}
+
+h2 {
+  margin-top: -70px;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0ea52a;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0ea52a;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #12ce35;
+}
+
+@media only screen and (max-width: 600px) {
+    .left {
+        width: 100%;
+        margin: auto;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}

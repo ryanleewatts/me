@@ -2,185 +2,36 @@
 
 <html>
 	<head>
-		<title>Ryan Watts - Data Journalist</title>
+		<title>@ryanleewatts</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <div class="container">
+      <div class="left">
+        <h1>Ryan Watts</h1>
+        <h2><a href="http://www.twitter.com/ryanleewatts">@ryanleewatts</a></h2>
+        <p>I am a journalist at <a href="https://www.thetimes.co.uk">The Times and Sunday Times.</a> Somehow.<br> I make make charts, graphs, calculators, and tell<br> stories with data.</p>
+        <p>Got any ideas you'd like me to help you with? Email <a href="mailto:ryan.watts@the-times.co.uk?Subject=Hi%20Ryan">ryan.watts@the-times.co.uk</a></p>
+        <p>While I have you, check out some of my previous work:</p>
+        <ul>
+          <li><a href="https://www.thetimes.co.uk/article/brexit-and-the-irish-border-jcm02pmz0">The future of the Irish border</a></li>
+					<li><a href="https://www.thetimes.co.uk/article/the-twitter-gap-99-of-mps-follow-more-men-than-women-g320mqr6z">99% of MPs have Twitter problem</a></li>
+          <li><a href="https://www.bucksherald.co.uk/author/ryan.watts">I was once a local reporter</a></li>
+          <li><a href="https://www.telegraph.co.uk/authors/ryan-watts/">Star Wars, rail anger, faithless voters</a></li>
+          <li><a href="http://coding-project.ryanleewatts.com/">Why not compare band setlists?</a></li>
+          <li><a href="http://www.interhacktives.com/author/ryanleewatts/">The Interhacktives blog</a></li>
+          <li><a href="https://firstdraftnews.org/joint-venture-learnings/">Battling misinformation</a></li>
+        </ul>
+      </div>
+      <div class="right">
+      </div>
+    </div>
 
-				<!--Intro Wrapper -->
-					<div id="wrapper">
+    <script src="script.js"></script>
 
-						<!-- INTRO PART ONE -->
-							<section class="panel banner right">
-								<div class="content color0 span-3-75">
-									<h1 class="major">Hello, my name <br />is Ryan Watts</h1>
-									<p>I'm a data journalist, and reporter for a local newspaper in Buckinghamshire.</p>
-									<p>This picture is of me doing some of that reporting - investigating how difficult it is for people in wheelchairs to navigate the streets of Buckingham. I wasn't texting, promise.</p>
-								</div>
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
-								</div>
-							</section>
-
-						<!-- INTRO PART 2 -->
-							<section class="panel spotlight medium right" id="first">
-								<div class="content span-7">
-									<h2 style="background: linear-gradient(45deg, #131416 20%, #292d35 60%, #1b1f26); padding: 10px;"class="major">I'm a news reporter for the Buckingham and Winslow Advertiser</h2>
-									<p style="background: linear-gradient(45deg, #131416 20%, #292d35 60%, #1b1f26); padding: 10px;">My patch is North Bucks, but I also write council stories for The Bucks Herald (both titles are produced by Johnston Press). For a full list of front pages, and to see some of my work, check out this blog post. Other projects include:</p>
-								</div>
-								<div class="image filtered tinted" data-position="top left">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-							</section>
-
-						</div>
-
-					<!-- Flight Delays Wrapper -->
-						<div id="mini-wrapper">
-
-						<!-- Text Panel -->
-							<section class="panel color1-alt">
-								<div class="intro color0">
-									<h1 class="major">Flight delays</h1>
-									<p>Planning a holiday this summer? <a href="http://www.bbc.co.uk/news/business-40831970">This calculator</a> I helped the BBC with during a summer internship will tell you the average delay that your planned flight might suffer.</p>
-								</div>
-							</section>
-
-						<!-- Picture Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic06.jpg" alt="" />
-								</div>
-							</section>
-
-					</div>
-
-					<!-- Exclusions Wrapper -->
-						<div  id="mini-wrapper">
-
-						<!-- Text Panel -->
-							<section class="panel color1-alt">
-								<div class="intro color0">
-									<h1 style="font-size: 47px" class="major">Exclusions</h1>
-									<p>Students from Black backgrounds in Buckinghamshire schools are expelled at a rate 3.5x higher than white children. <a href="https://www.bucksherald.co.uk/news/education/rates-of-student-exclusions-in-bucks-not-acceptable-1-8205946">This data story</a> combines county stats with national numbers, with graphs made with QGIS.</p>
-								</div>
-							</section>
-
-						<!-- Picture Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic08.jpg" alt="" />
-								</div>
-							</section>
-
-					</div>
-
-					<!-- Rail Anger Wrapper -->
-						<div  id="mini-wrapper">
-
-						<!-- Text Panel -->
-							<section class="panel color1-alt">
-								<div class="intro color0">
-									<h1 class="major">Rail anger</h1>
-									<p>With the Telegraph, <a href="http://www.telegraph.co.uk/news/2016/12/20/southern-rail-passengers-saying-strike-twitter-30000-tweets/">I scraped tweets</a> around rail passenger anger following a Southern Rail strike. The result: lots of expressive swearing. Data analysis in R.</p>
-								</div>
-							</section>
-
-						<!-- Picture Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic07.jpg" alt="" />
-								</div>
-							</section>
-
-					</div>
-
-					<!-- Setlists Wrapper -->
-						<div  id="mini-wrapper">
-
-						<!-- Text Panel -->
-							<section class="panel color1-alt">
-								<div class="intro color0">
-									<h1 class="major">Setlists</h1>
-									<p>A University project: Guns N Roses were celebrating 30 years on from their debut album. <a href="http://coding-project.ryanleewatts.com/">Scraping Setlist.fm</a> with Python, I proved that your first hits are always the fan favourites.</p>
-								</div>
-							</section>
-
-						<!-- Picture Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic05.jpg" alt="" />
-								</div>
-							</section>
-
-					</div>
-
-					<!-- Interhacktives Wrapper -->
-						<div  id="mini-wrapper">
-
-						<!-- Text Panel -->
-							<section class="panel color1-alt">
-								<div class="intro color0">
-									<h1 class="major">Interhacktives</h1>
-									<p>Facebook Live polls, BBC VR projects, podcasts: here are <a href="http://www.interhacktives.com/author/ryanleewatts/">a selection of articles</a> written for the award-winning journalism blog Interhacktives.</p>
-								</div>
-							</section>
-
-						<!-- Picture Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic04.jpg" alt="" />
-								</div>
-							</section>
-
-					</div>
-
-				<!-- Contact Wrapper -->
-					<div  id="mini-wrapper">
-
-							<!-- Text Panel -->
-								<section class="panel color1-alt">
-									<div class="intro color0">
-										<h1 class="major">Contact</h1>
-										<p>I'd love to hear from you, especially if you have any story ideas - ryan.watts@jpress.co.uk. Need to get in touch but want to keep it secure? PGP: 6516 0F28 6F48 66F8 D8DE A391 9F40 8284 40AB 0A8B </p>
-									</div>
-									<div class="inner columns divided color0">
-										<div class="span-1-5">
-											<ul class="contact-icons color0">
-												<li class="icon fa-twitter"><a href="http://www.twitter.com/ryanleewatts">@ryanleewatts</a></li>
-												<li class="icon fa-facebook"><a href="http://www.facebook.com/ryanleewatts">ryanleewatts</a></li>
-												<li class="icon fa-github"><a href="http://www.github.com/ryanleewatts">ryanleewatts</a></li>
-												<li class="icon fa-linkedin"><a href="http://www.linkedin.com/in/ryanleewatts">@ryanleewatts</a></li>
-												<li class="icon fa-medium"><a href="http://www.medium.com/@ryanleewatts">ryanleewatts</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-
-							<!-- Picture Panel (Banner) -->
-								<section class="panel banner right">
-									<div class="image filtered span-1-75" data-position="25% 25%">
-										<img src="images/pic03.jpg" alt="" />
-									</div>
-								</section>
-
-						</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/flights.js"></script>
-
-	</body>
-</html>
+  </body>
+  </html>
