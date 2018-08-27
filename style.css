@@ -1,90 +1,133 @@
 @import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|News+Cycle:400,700');
 
 html, body {
-  margin: 0;
   font-family: 'News Cycle', sans-serif;
-  text-align: center;
-  height: 100%
+  height: 100%;
   overflow: hidden;
 }
 
 .container {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -ms-box-orient: horizontal;
-  box-orient: horizontal;
-  margin-top: -50px;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .left {
-  width: 400px;
-  -ms-flex: 0 100px;
-  -webkit-box-flex:  0;
-  -moz-box-flex:  0;
-  -ms-box-flex:  0;
-  box-flex:  0;
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.leftinner {
+  width: 75%;
   margin: auto;
 }
 
-.left > p {
-  padding: 10px;
+#map {
+  display: none;
 }
 
 .right {
- -ms-flex: 1;
- -webkit-box-flex: 1;
- -moz-box-flex: 1;
- -ms-box-flex: 1;
- box-flex: 1;
- margin: auto;
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
 }
 
-h1 {
-  font-family: 'News Cycle', sans-serif;
-  font-size: 70px;
+.rightinner {
+  margin-top: -90px;
 }
 
 h2 {
-  margin-top: -70px;
-  font-size: 18px;
+  font-size: 48px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
+h3 {
+  margin-top: -40px;
 }
 
 a {
   text-decoration: none;
-  color: #0ea52a;
+  color: #254251;
 }
 
 a:visited {
   text-decoration: none;
-  color: #0ea52a;
+  color: #254251;
 }
 
 a:hover {
   text-decoration: none;
-  color: #12ce35;
+  color: #80b1e2;
+  cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    .left {
-        width: 100%;
-        margin: auto;
-    }
+@media only screen and (max-width: 479px){
+  html, body {
+    overflow-y: auto;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 100%;
+    height:auto;
+  }
+  #map {
+    display: inherit;
+  }
+  #map > img {
+    width: 110%;
+    margin: auto;
+    margin-left: -6%;
+  }
+  #chart {
+    display: none;
+  }
+  .right {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 0vw;
+  }
+}
 
-    li {
-        margin: 10px 0;
-    }
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  html, body {
+    overflow-y: auto;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 100%;
+    height: auto;
+  }
+  .right {
+    margin-top: 75px;
+    width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+  h2 {
+    font-size: 4vw;
+  }
 }

@@ -1,34 +1,43 @@
 <!DOCTYPE HTML>
 
 <html>
+
 	<head>
-		<title>@ryanleewatts</title>
+		<title>Charts by Ryan Watts</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="style.css" />
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
+
 	<body>
 
     <div class="container">
-      <div class="left">
-        <h1>Ryan Watts</h1>
-        <h2><a href="http://www.twitter.com/ryanleewatts">@ryanleewatts</a></h2>
-        <p>I am a journalist at <a href="https://www.thetimes.co.uk">The Times and Sunday Times.</a> Somehow.<br> I make make charts, graphs, calculators, and tell<br> stories with data.</p>
-        <p>Got any ideas you'd like me to help you with? Email <a href="mailto:ryan.watts@the-times.co.uk?Subject=Hi%20Ryan">ryan.watts@the-times.co.uk</a></p>
-        <p>While I have you, check out some of my previous work:</p>
-        <ul>
-          <li><a href="https://www.thetimes.co.uk/article/brexit-and-the-irish-border-jcm02pmz0">The future of the Irish border</a></li>
-					<li><a href="https://www.thetimes.co.uk/article/the-twitter-gap-99-of-mps-follow-more-men-than-women-g320mqr6z">99% of MPs have Twitter problem</a></li>
-          <li><a href="https://www.bucksherald.co.uk/author/ryan.watts">I was once a local reporter</a></li>
-          <li><a href="https://www.telegraph.co.uk/authors/ryan-watts/">Star Wars, rail anger, faithless voters</a></li>
-          <li><a href="http://coding-project.ryanleewatts.com/">Why not compare band setlists?</a></li>
-          <li><a href="http://www.interhacktives.com/author/ryanleewatts/">The Interhacktives blog</a></li>
-          <li><a href="https://firstdraftnews.org/joint-venture-learnings/">Battling misinformation</a></li>
-        </ul>
-      </div>
+
+			<div class="left">
+
+				<div class="leftinner" id="chart">
+					<iframe id="datawrapper-chart" src="http://datawrapper.dwcdn.net/rjOFz" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="462"></iframe>
+				</div>
+				<div class="leftinner" id="map">
+					<img src="map.jpg"></img>
+				</div>
+
+			</div>
+
       <div class="right">
+
+				<div class="rightinner">
+	        <h2 id="header">See that chart? I made that.</h2>
+					<h3>(You don't like it? Try <a onclick="newChart()">another one</a> then.)</h3>
+	        <p>My name is <strong><a>Ryan Watts.</a></strong> I am a journalist at <strong><a href="https://www.thetimes.co.uk">The Times and Sunday Times.</a></strong><br> I make charts, maps, calculators, and tell stories with data.</p>
+	        <p>Got any ideas you'd like me to help you with?<br>Send me an email: <strong><a href="mailto:ryan.watts@the-times.co.uk?Subject=Hi%20Ryan">ryan.watts@the-times.co.uk</a></strong><br>Or check out:</p>
+					<p><strong><a href="https://medium.com/@ryanleewatts">My blog</a>&emsp;<a href="http://www.twitter.com/ryanleewatts">Twitter</a>&emsp;<a href="http://www.instagram.com/ryanleewatts">Instagram</a>&emsp;<a href="http://www.github.com/ryanleewatts">or Github</a></strong></p>
+				</div>
+
       </div>
+
     </div>
 
     <script src="script.js"></script>
