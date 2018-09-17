@@ -14,7 +14,7 @@ window.addEventListener("resize", onresize);
 
 function newChart() {
 
-  var charts = ['hlmwK', 'JLSEh', 'U5NFZ', 'cLXWh', 'PmWy3', '85Una', 'VxoiA', 'pZdWA', '1Lf4V', 'bty9b', 'NfJfb', 'evWXC', 'jqRQi', 'V4usC', 'WeoK0', 'pjkzc', 'VScI2', 'rjOFz', '8Rlmz', 'wwwrC', 'jBzPN', 'Kskap', 'SMwXx'];
+  var charts = ['hlmwK', 'JLSEh', 'U5NFZ', 'cLXWh', 'PmWy3', '85Una', 'VxoiA', 'pZdWA', '1Lf4V', 'bty9b', 'NfJfb', 'evWXC', 'jqRQi', 'V4usC', 'WeoK0', 'pjkzc', 'VScI2', 'rjOFz', '8Rlmz', 'wwwrC', 'jBzPN', 'Kskap', 'SMwXx', '9QQei', 'uljQM', 'eJEBi', 'lYhyc', 'uSuMN'];
 
   var chartcode = charts[Math.floor(Math.random()*charts.length)];
 
